@@ -1,0 +1,359 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio — VARUN</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- ── NAV ── -->
+    <nav>
+      <a href="#" class="nav-logo">VARUN<span>.</span></a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li>
+          <a href="VARUN SAXENA_RESUME.pdf" target="_blank" class="resume-btn">
+            View Resume
+          </a>
+        </li>
+
+        <li>
+          <a
+            href="VARUN SAXENA_RESUME.pdf"
+            download="Varun_Resume.pdf"
+            class="resume-btn"
+          >
+            Download Resume
+          </a>
+        </li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="nav-right">
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+          <span class="theme-icon moon">🌙</span>
+          <span class="theme-icon sun">☀️</span>
+        </button>
+      </div>
+    </nav>
+
+    <!-- ── HERO ── -->
+    <div style="max-width: 1200px; margin: 0 auto; position: relative">
+      <div class="hero">
+        <div class="hero-content">
+          <div class="hero-eyebrow">Available for work</div>
+          <h1>Hi, I'm <span class="gradient-text">VARUN</span></h1>
+          <p class="hero-bio">
+            A data scientist and ML engineer who transforms raw data into
+            meaningful insights. I build and deploy models that solve real-world
+            problems — from messy datasets to production-ready pipelines.
+          </p>
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">View my work ↓</a>
+            <a href="#contact" class="btn btn-outline">Get in touch</a>
+          </div>
+        </div>
+        <div class="hero-blob"></div>
+      </div>
+    </div>
+
+    <div class="section-divider"></div>
+
+    <!-- ── ABOUT / SKILLS ── -->
+    <section id="about">
+      <div class="reveal">
+        <p class="section-label">About me</p>
+        <h2 class="section-title">Skills &amp; Technologies</h2>
+      </div>
+      <div class="skills-grid reveal">
+        <!-- Programming & Core -->
+        <div class="skill-pill">Python</div>
+        <div class="skill-pill">SQL</div>
+        <div class="skill-pill">Git & GitHub</div>
+        <div class="skill-pill">Docker</div>
+
+        <!-- Data Analysis -->
+        <div class="skill-pill">NumPy</div>
+        <div class="skill-pill">Pandas</div>
+        <div class="skill-pill">Matplotlib</div>
+
+        <!-- Machine Learning & AI -->
+        <div class="skill-pill">Machine Learning</div>
+        <div class="skill-pill">Deep Learning</div>
+        <div class="skill-pill">NLP</div>
+        <div class="skill-pill">Transformers</div>
+        <div class="skill-pill">RAG Systems</div>
+        <div class="skill-pill">OpenAI APIs</div>
+
+        <!-- Backend & APIs -->
+        <div class="skill-pill">Flask</div>
+        <div class="skill-pill">FastAPI</div>
+        <div class="skill-pill">REST APIs</div>
+
+        <!-- Frontend -->
+        <div class="skill-pill">HTML</div>
+        <div class="skill-pill">CSS</div>
+        <div class="skill-pill">JavaScript</div>
+        <div class="skill-pill">Tailwind CSS</div>
+        <div class="skill-pill">React</div>
+
+        <!-- CS Fundamentals -->
+        <div class="skill-pill">OOP</div>
+        <div class="skill-pill">Recursion</div>
+        <div class="skill-pill">Linked Lists</div>
+        <div class="skill-pill">Stacks & Queues</div>
+        <div class="skill-pill">Backtracking</div>
+      </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- ── PROJECTS ── -->
+    <section id="projects">
+      <div class="reveal">
+        <p class="section-label">Selected work</p>
+        <h2 class="section-title">Projects</h2>
+      </div>
+      <div class="projects-grid">
+        <div class="project-card reveal">
+          <span class="project-tag">Web App</span>
+          <h3>Project LoanLense</h3>
+          <p>
+            LoanLens is a machine learning project that predicts loan approval
+            outcomes by analyzing applicant financial, personal, and
+            credit-related features.
+          </p>
+          <div class="project-links">
+            <a
+              href="https://loanlens-loanpredictor.streamlit.app/"
+              class="project-link"
+              >Live demo ↗</a
+            >
+            <a
+              href="https://github.com/VarunSaxena07/ML_Project_LoanLens"
+              class="project-link"
+              >GitHub ↗</a
+            >
+          </div>
+        </div>
+
+        <div class="project-card reveal">
+          <span class="project-tag">Web App</span>
+          <h3>Project_HelixCare_lab</h3>
+          <p>
+            HelixCare Lab is a healthcare machine learning project focused on
+            disease prediction using patient data. Multiple models were
+            evaluated with an emphasis on recall, and Random Forest was selected
+            to minimize false negatives in medical decision-making.
+          </p>
+          <div class="project-links">
+            <a
+              href="https://github.com/VarunSaxena07/Project_HelixCare_lab"
+              class="project-link"
+              >GitHub ↗</a
+            >
+          </div>
+        </div>
+
+        <div class="project-card reveal">
+          <span class="project-tag">Web App</span>
+          <h3>Downly-Web-YouTube-Dowloader---Flask</h3>
+          <p>
+            A Flask-based YouTube Downloader web application that enables users
+            to download videos by selecting preferred quality options. The app
+            uses yt-dlp for reliable and stable downloads, prevents file
+            overwriting, automatically manages download directories, and
+            features a fully responsive user interface for both desktop and
+            mobile users.
+          </p>
+          <div class="project-links">
+            <a
+              href="https://github.com/VarunSaxena07/Downly-Web-YouTube-Dowloader---Flask"
+              class="project-link"
+              >GitHub ↗</a
+            >
+          </div>
+        </div>
+        <div class="project-card reveal">
+          <span class="project-tag">Data visualization</span>
+          <h3>Project-1-Exo-Planet-dataset-plotting</h3>
+          <p>
+            A Python-based data visualization project that explores NASA’s
+            exoplanet dataset through clear, insightful, and scientific plots.
+            This notebook analyzes how exoplanets are discovered, what methods
+            astronomers use, and how different planetary properties relate to
+            each other.
+          </p>
+          <div class="project-links">
+            <a
+              href="https://github.com/VarunSaxena07/Project-1-Exo-Planet-dataset-plotting"
+              class="project-link"
+              >GitHub ↗</a
+            >
+          </div>
+        </div>
+        <div class="project-card reveal">
+          <span class="project-tag">CNN Project</span>
+          <h3>CIFAR-10 Image Classification</h3>
+          <p>
+            A clean and simple Convolutional Neural Network built using PyTorch
+            to classify images from the CIFAR-10 dataset. This project includes
+            model training, evaluation, dropout regularization, and
+            visualization of training metrics.
+          </p>
+          <div class="project-links">
+            <a
+              href="https://github.com/VarunSaxena07/pytorch-cifar10-model"
+              class="project-link"
+              >GitHub ↗</a
+            >
+            <a
+              href="https://image-classifier-cifar10.streamlit.app/"
+              class="project-link"
+              >Live demo ↗</a
+            >
+          </div>
+        </div>
+        <div class="project-card reveal">
+          <span class="project-tag">Machine Learning</span>
+          <h3>Telco Customer Churn Prediction</h3>
+          <p>
+            This project focuses on predicting customer churn in a telecom
+            company using machine learning. The goal is to identify customers
+            who are likely to leave the service, enabling proactive retention
+            strategies.
+          </p>
+          <div class="project-links">
+            <a
+              href="https://github.com/VarunSaxena07/telco-customer-churn-prediction"
+              class="project-link"
+              >GitHub ↗</a
+            >
+          </div>
+        </div>
+        <div class="project-card reveal">
+          <span class="project-tag">RNN Project</span>
+          <h3>Sentiment Analysis Web App</h3>
+          <p>
+            A simple and interactive Sentiment Analysis application built using
+            PyTorch (RNN) and TF-IDF, deployed with Streamlit.
+          </p>
+          <div class="project-links">
+            <a
+              href="https://github.com/VarunSaxena07/telco-customer-churn-prediction"
+              class="project-link"
+              >GitHub ↗</a
+            >
+            <a
+              href="https://sentiment--analyzer.streamlit.app/"
+              class="project-link"
+              >Live demo ↗</a
+            >
+          </div>
+        </div>
+        <div class="project-card reveal">
+          <span class="project-tag">Reinforcement Learning Project</span>
+          <h3>Flappy Bird AI using Deep Q-Learning (DQN)</h3>
+          <p>
+            An AI agent that learns to play Flappy Bird using Reinforcement
+            Learning and Deep Q-Networks (DQN). The agent improves over time by
+            interacting with the environment and learning optimal actions
+            through trial and error.
+          </p>
+          <div class="project-links">
+            <a
+              href="https://github.com/VarunSaxena07/FLAPPY_BIRD"
+              class="project-link"
+              >GitHub ↗</a
+            >
+          </div>
+        </div>
+        <div class="project-card reveal">
+          <span class="project-tag">Transformers Project</span>
+          <h3>AI Text Summarizer using T5 Transformer</h3>
+          <p>
+            An intelligent abstractive text summarization web application built
+            using the T5 Transformer model, Flask, and Hugging Face
+            Transformers. This project allows users to input long paragraphs or
+            documents and instantly generate concise, meaningful summaries.
+          </p>
+          <div class="project-links">
+            <a
+              href="https://github.com/VarunSaxena07/Ai-TEXT_SUMMARIZER"
+              class="project-link"
+              >GitHub ↗</a
+            >
+          </div>
+        </div>
+        <div class="project-card reveal">
+          <span class="project-tag">APIs Project</span>
+          <h3>Personal AI Assistant using Groq API</h3>
+          <p>
+            A web-based AI assistant powered by the Groq API, designed to
+            deliver fast and context-aware responses through a clean and modern
+            chat interface. The application allows users to ask questions,
+            receive intelligent responses, and summarize long-form text or email
+            content in real time. Built with Flask, HTML, CSS, and JavaScript,
+            this project demonstrates practical integration of large language
+            models into a production-style web application.
+          </p>
+          <div class="project-links">
+            <a
+              href="https://github.com/VarunSaxena07/PERSONAL_AI_ASSISTANT"
+              class="project-link"
+              >GitHub ↗</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- ── CONTACT ── -->
+    <section id="contact">
+      <div class="reveal">
+        <p class="section-label">Get in touch</p>
+        <h2 class="section-title">Let's Talk</h2>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-text reveal">
+          <p>
+            I'm always open to new opportunities, collaborations, or just a good
+            chat about tech. Reach out — I usually reply within 24 hours.
+          </p>
+          <div class="social-links">
+            <a
+              href="www.linkedin.com/in/varun-saxena-777b95359"
+              class="social-link"
+              >💼 LinkedIn</a
+            >
+            <a
+              href="https://github.com/VarunSaxena07?tab=repositories"
+              class="social-link"
+              >🐙 GitHub</a
+            >
+
+            <a href="mailto:saxenavarun119@gmail.com" class="social-link"
+              >✉️ Email</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── FOOTER ── -->
+    <footer>
+      Crafted with <span>♥</span> by VARUN · <span id="year"></span>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
